@@ -92,6 +92,7 @@
     font-size: 4.2rem;
     color: var(--white-cl-1);
     margin: 0;
+    
 }
 
 .main__slice .slide.active .caption h1 {
@@ -103,7 +104,7 @@
 .main__slice .caption p {
     font-size: 1.8rem;
     margin: 15px 0 30px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.811);
     font-weight: 200;
 }
 
