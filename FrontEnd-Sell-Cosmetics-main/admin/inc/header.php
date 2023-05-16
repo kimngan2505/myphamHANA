@@ -1,3 +1,7 @@
+<?php
+    include '../lib/session.php';
+    Session::checkSession();
+?>
 <!doctype html>
 <html>
 <head>
@@ -42,11 +46,20 @@
                             </div>
                         </li>
 
-                        <!-- <li class="nav-item text-center">
+                        <li class="nav-item text-center">
                             <div id="custom-search" class="top-search-bar">
-                                <h5>Quản trị viên</h5>
+                                <h5><?php echo Session::get('nvEmail')?></h5>
                             </div>
-                        </li> -->
+                        </li>
+                        <?php
+                            if(isset($_GET['action'])&& $_GET['action']=='logout'){
+                                Session::destroy();
+                                
+                            }
+                        ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="?action=logout"><i class="fa fa-power-off"></i> Đăng xuất</a>
+                        </li>
 
                     </ul>
                 </div>
@@ -72,7 +85,7 @@
                                 Quản trị
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="Dashboard.php"><i class="fas fa-home"
+                                <a class="nav-link" href="index.php"><i class="fas fa-home"
                                         aria-hidden="true"></i>Dashboard</a>
                             </li>
                             <li class="nav-item ">

@@ -1,3 +1,16 @@
+<?php 
+include '../classes/adminlogin.php';
+?>
+<?php 
+    $class = new adminlogin();
+    if($_SERVER['REQUEST_METHOD']=='POST'){
+      $nvEmail = $_POST['nvEmail'];
+      $nvPassword = $_POST['nvPassword'];
+
+      $login_check = $class->login_admin($nvEmail, $nvPassword);
+    }
+?>
+
 <!DOCTYPE html>
 <!-- saved from url=(0051)https://getbootstrap.com/docs/4.0/examples/sign-in/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -19,19 +32,27 @@
   </head>
 
   <body class="text-center">
-    <form class="form-signin">
+    <form action="login.php" method="post" class="form-signin">
       <!-- <img class="mb-4" src="favicon-32x16.png alt="" width="72" height="72"> -->
       <h1 class="h3 mb-3 font-weight-normal">Đăng nhập</h1>
+      <span>
+        <?php
+        if(isset($login_check)){
+          echo $login_check;
+        }
+        ?>
+      </span>
+
       <label for="inputEmail" class="sr-only">Tên đăng nhập</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Tên đăng nhập" required="" autofocus="">
+      <input type="email" id="inputEmail" class="form-control" placeholder="Tên đăng nhập" required="" name ="nvEmail" autofocus="">
       <label for="inputPassword" class="sr-only">Mật khẩu</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Mật khẩu" required="">
+      <input type="password" id="inputPassword" class="form-control" placeholder="Mật khẩu" required="" name ="nvPassword">
       <div class="checkbox mb-3">
         <label>
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <a class="btn btn-lg btn-primary btn-block" href="Dashboard.php">Đăng nhập</a>
+      <input class="btn btn-lg btn-primary btn-block" type ="submit" value ="Đăng nhập"/>
       
     </form>
 
