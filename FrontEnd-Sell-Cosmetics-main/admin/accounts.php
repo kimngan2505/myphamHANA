@@ -216,8 +216,7 @@
                                                     <div class="modal-dialog" role="document">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h2 class="modal-title" id="deleteModalLabel">Xóa Thông
-                                                                    Tin Sinh Viên</h3>
+                                                                <h2 class="modal-title" id="deleteModalLabel">Xóa tài khoản</h3>
                                                                     <button type="button" class="close"
                                                                         data-dismiss="modal" aria-label="Close">
                                                                         <span aria-hidden="true">&times;</span>
