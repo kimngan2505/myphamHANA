@@ -89,6 +89,9 @@
                                         aria-hidden="true"></i>Dashboard</a>
                             </li>
                             <li class="nav-item ">
+                                <a class="nav-link " href="category.php"><i class="fa fa-list" aria-hidden="true"></i>Danh mục sản phẩm</a>
+                            </li>
+                            <li class="nav-item ">
                                 <a class="nav-link " href="products.php"><i class="fa fa-list" aria-hidden="true"></i>Quản lý sản phẩm</a>
                             </li>
                             <li class="nav-item">

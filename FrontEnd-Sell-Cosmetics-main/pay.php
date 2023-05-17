@@ -1,6 +1,5 @@
 <?php
-include 'inc/headerPay.php';
-include 'inc/slider.php';
+include 'inc/header.php';
 ?>
     <div class="main">
         <div class="grid wide">

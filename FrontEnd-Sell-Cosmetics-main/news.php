@@ -1,5 +1,5 @@
 <?php
-include 'inc/headerNews.php';
+include 'inc/header.php';
 ?>
     <div class="main">
         <div class="grid wide">
