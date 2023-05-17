@@ -45,7 +45,7 @@
                     <span></span>
                 </div>
                 <a href="index.php" class="header__logo">
-                    <img src="./assets/logo.png" alt="">
+                    <img src="./assets/logonew.png" alt="">
                 </a>
                 <div class="header__search">
                     <div class="header__search-wrap">

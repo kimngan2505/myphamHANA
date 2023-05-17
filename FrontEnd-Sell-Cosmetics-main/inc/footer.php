@@ -44,17 +44,17 @@
                     <ul class="footer__list">
                         <li class="footer__item">
                             <span class="footer__text">
-                                    <i class="fas fa-map-marked-alt"></i> 319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM
+                                    <i class="fas fa-map-marked-alt"></i> Số 123 Đường 3/2, Xuân Khánh, Ninh Kiều, TP.Cần Thơ
                                 </span>
                         </li>
                         <li class="footer__item">
                             <a href="#" class="footer__link">
-                                <i class="fas fa-phone"></i> 076 922 0162
+                                <i class="fas fa-phone"></i> 0909 999 999 
                             </a>
                         </li>
                         <li class="footer__item">
                             <a href="#" class="footer__link">
-                                <i class="fas fa-envelope"></i> phuonggiang150@gmail.com
+                                <i class="fas fa-envelope"></i> Nhom02@gmail.com
                             </a>
                         </li>
                         <li class="footer__item">
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="copyright">
-            <span class="footer__text"> &copy Bản quyền thuộc về <a class="footer__link" href="#"> Phương Giang</a></span>
+            <span class="footer__text"> &copy Bản quyền thuộc về <a class="footer__link" href="#"> Nhóm 02</a></span>
         </div>
     </div>
     <!-- Modal Form -->
