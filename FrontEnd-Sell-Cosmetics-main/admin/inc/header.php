@@ -88,9 +88,7 @@
                                 <a class="nav-link" href="index.php"><i class="fas fa-home"
                                         aria-hidden="true"></i>Dashboard</a>
                             </li>
-                            <li class="nav-item ">
-                                <a class="nav-link " href="category.php"><i class="fa fa-list" aria-hidden="true"></i>Danh mục sản phẩm</a>
-                            </li>
+                            
                             <li class="nav-item ">
                                 <a class="nav-link " href="products.php"><i class="fa fa-list" aria-hidden="true"></i>Quản lý sản phẩm</a>
                             </li>
@@ -121,6 +119,25 @@
 
                                     </ul>
                                 </div>
+                                
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                                    data-target="#submenu-2-2" aria-controls="submenu-2-2"><i
+                                        class="far fa-calendar-minus"></i>Danh mục sản phẩm</a>
+                                <div id="submenu-2-2" class="collapse submenu">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="category.php">Loại hàng</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Thương hiệu</a>
+                                        </li>
+                                        
+
+                                    </ul>
+                                </div>
+                                
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="accounts.php"><i class="fa fa-fw fa-rocket"></i>Quản lý tài
