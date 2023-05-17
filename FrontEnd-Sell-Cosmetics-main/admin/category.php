@@ -45,38 +45,10 @@
                                                                     <div class="row">
                                                                         <div class="form-group col-6">
                                                                             <label
-                                                                                class="col-form-label font-weight-bold">Họ và Tên<span class="text-danger"> (*)</span></label>
-                                                                            <input type="text" class="form-control" value="Nguyễn Khúc Thuận">
+                                                                                class="col-form-label font-weight-bold">Tên loại<span class="text-danger"> (*)</span></label>
+                                                                            <input type="text" name="typeName" class="form-control" placeholder="Nhập tên loại">
                                                                         </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Emai<span class="text-danger"> (*)</span></label>
-                                                                            <input type="text" class="form-control" value="thuan2015vl@gmai.com">
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Số điện thoại<span class="text-danger"> (*)</span></label>
-                                                                            <input type="text" class="form-control" value="0123456789">
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label class="col-form-label font-weight-bold">Loại tài khoản<span class="text-danger"> (*)</span></label>
-                                                                            <select class="form-control">
-                                                                                <option>Admin</option>
-                                                                                <option>Thu ngân</option>
-                                                                                <option>Giao hàng</option>                                       
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Mật khẩu<span class="text-danger"> (*)</span></label>
-                                                                            <input type="password" class="form-control">
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Nhập lại mật khẩu<span class="text-danger"> (*)</span></label>
-                                                                            <input type="password" class="form-control">
-                                                                        </div>
-                                                                        
+                                                                    
                                                                     </div>  
                                                                 </form>
                                             </div>
@@ -113,11 +85,8 @@
                                         <tr>
                                             <th scope="col">STT</th>
                                             
-                                            <th scope="col">Mã nhân viên</th>
-                                            <th scope="col">Họ và Tên</th>
-                                            <th scope="col">Loại tài khoản</th>
-                                            <th scope="col">Số điện thoại</th>
-                                            <th scope="col">Email</th>
+                                            <th scope="col">Mã loại</th>
+                                            <th scope="col">Tên loại</th>                                            
                                             <th scope="col">Thao tác</th>
                                         </tr>
                                     </thead>
@@ -125,10 +94,8 @@
                                         <tr>
                                             <th scope="row">1</th>                                           
                                             <td>1</td>
-                                            <td>Nguyễn Khúc Thuận</td>
-                                            <td>Admin</td>
-                                            <td>0123456789</td>
-                                            <td>thuan2015vl@gmail.com</td>                                          
+                                            <td>Cao cấp</td>
+                                                                                  
                                             <td>
                                                 
                                                 <span data-toggle="modal" data-target="#editModal">
@@ -151,7 +118,7 @@
                                                     <div class="modal-dialog modal-lg" role="document">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h2 class="modal-title" id="editModalLabel">Sửa Tài Khoản</h3>
+                                                                <h2 class="modal-title" id="editModalLabel">Sửa loại sản phẩm</h3>
                                                                     <button type="button" class="close"
                                                                         data-dismiss="modal" aria-label="Close">
                                                                         <span aria-hidden="true">&times;</span>
@@ -162,38 +129,8 @@
                                                                     <div class="row">
                                                                         <div class="form-group col-6">
                                                                             <label
-                                                                                class="col-form-label font-weight-bold">Họ và Tên<span class="text-danger"> (*)</span></label>
-                                                                            <input type="text" class="form-control" value="Nguyễn Khúc Thuận">
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Emai<span class="text-danger"> (*)</span></label>
-                                                                            <input type="text" class="form-control" value="thuan2015vl@gmai.com">
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Số điện thoại<span class="text-danger"> (*)</span></label>
-                                                                            <input type="text" class="form-control" value="0123456789">
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label class="col-form-label font-weight-bold">Loại tài khoản<span class="text-danger"> (*)</span></label>
-                                                                            <select class="form-control">
-                                                                                <option>Admin</option>
-                                                                                <option>Thu ngân</option>
-                                                                                <option>Giao hàng</option>                                       
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Mật khẩu<span class="text-danger"> (*)</span></label>
-                                                                            <input type="password" class="form-control">
-                                                                        </div>
-                                                                        <div class="form-group col-6">
-                                                                            <label
-                                                                                class="col-form-label font-weight-bold">Nhập lại mật khẩu<span class="text-danger"> (*)</span></label>
-                                                                            <input type="password" class="form-control">
-                                                                        </div>
-                                                                        
+                                                                                class="col-form-label font-weight-bold">Tên loại<span class="text-danger"> (*)</span></label>
+                                                                            <input type="text" class="form-control" value="Kem chống nắng">
                                                                     </div>  
                                                                 </form>
                                                             </div>
@@ -201,7 +138,7 @@
                                                                 <button type="button" class="btn btn-danger"
                                                                     data-dismiss="modal">Đóng</button>
                                                                 <button type="button"
-                                                                    class="btn btn-success">Thêm</button>
+                                                                    class="btn btn-success">Cập nhật</button>
                                                             </div>
                                                         </div>
                                                     </div>
