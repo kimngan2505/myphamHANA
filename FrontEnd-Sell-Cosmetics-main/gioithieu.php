@@ -39,7 +39,7 @@ include 'inc/header.php';
                         <img src="./image/cua-hang-my-pham.png" alt="">
                             <p class="new-item__description">Hình ảnh khách hàng mua mỹ phẩm tại BEAUTY HANA</p>
                             <div class="muahang">
-                            &nbsp;&nbsp; <img src ="./image/khach-hang-mua-my-pham.jpg" width="320px"> <img src ="./image/khach-hang-mua-my-pham2.jpg" width="355px"> <img src ="./image/cách-chào-hàng-mỹ-phẩm-online.jpg" width="308px">
+                            &nbsp;&nbsp; <img src ="./image/mua-my-pham-1.jpg" width="280px"> <img src ="./image/mua-my-pham-2.jpg" width="305px"> <img src ="./image/mua-my-pham-3.jpg" width="265px">
                             </div>
                         <p class="new-item__description">Trải nghiệm ngay mua mỹ phẩm tại BEAUTY HANA !!!</p>
                         <a href="index.php" class="btn btn--default">Trang chủ</a>

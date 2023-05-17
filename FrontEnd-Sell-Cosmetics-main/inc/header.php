@@ -45,7 +45,7 @@
                     <span></span>
                 </div>
                 <a href="index.php" class="header__logo">
-                    <img src="./assets/logonew.png" alt="">
+                    <img src="./image/logonew.png" width="250px" alt="">
                 </a>
                 <div class="header__search">
                     <div class="header__search-wrap">
@@ -139,10 +139,10 @@
                     <a href="index.php" class="header__nav-link">Trang chủ</a>
                 </li>
                 <li class="header__nav-item">
-                    <a href="#" class="header__nav-link">Giới Thiệu</a>
+                    <a href="gioithieu.php" class="header__nav-link">Giới Thiệu</a>
                 </li>
                 <li class="header__nav-item">
-                    <a href="#" class="header__nav-link">Sản Phẩm</a>
+                    <a href="sanpham.php" class="header__nav-link">Sản Phẩm</a>
                     <div class="sub-nav-wrap grid wide">
                         <ul class="sub-nav">
                             <li class="sub-nav__item">
